@@ -16,6 +16,8 @@ def healthcare_chatbot(user_input):
     
     # Predefined responses for common healthcare-related queries
     responses = {
+        "covid": "COVID-19 is a highly contagious respiratory illness caused by the SARS-CoV-2 virus. Follow safety guidelines provided by health authorities.",
+        "Bird flu": "Dont eat Chicken please",
         "symptom": "I recommend consulting a doctor for an accurate diagnosis.",
         "appointment": "Would you like to schedule an appointment with a healthcare professional?",
         "medication": "Make sure to follow your doctor’s prescription. If you have concerns, consult a medical expert.",
